@@ -2,7 +2,7 @@
 
 Submitted by: **Jason Kang**
 
-**Excertrack** is a health metrics app that allows users to track their excer 
+**Excertrack** is a health metrics app that allows users to track their exercise. 
 
 Time spent: **15** hours spent in total
 
