@@ -81,7 +81,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.15" />
 
-    <TextView
+    <!--<TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -92,9 +92,9 @@
         app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238" />
+        app:layout_constraintVertical_bias="0.238" />-->
 
-    <TextView
+<!--    <TextView
         android:id="@+id/lowestWorkoutTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -104,5 +104,5 @@
         app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238" />
+        app:layout_constraintVertical_bias="0.238" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

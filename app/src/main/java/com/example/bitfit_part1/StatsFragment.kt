@@ -27,13 +27,13 @@ class StatsFragment : Fragment() {
         val exerciseList: MutableList<DisplayExercise> = listOf<DisplayExercise>().toMutableList()
         val average: TextView = view.findViewById(R.id.averageWorkoutTv)
         val highest: TextView = view.findViewById(R.id.highestWorkoutTv)
-        val lowest: TextView = view.findViewById(R.id.lowestWorkoutTv)
+        /*val lowest: TextView = view.findViewById(R.id.lowestWorkoutTv)*/
         val total: TextView = view.findViewById(R.id.totalWorkoutTv)
 
         var highestNum = 0
         var averageNum = 0
         var totalNum = 0
-        var lowestNum = 0
+        /*var lowestNum = 0*/
 
 
 
@@ -54,12 +54,12 @@ class StatsFragment : Fragment() {
                     }
                 }
                 highest.text = highestNum.toString()
-                for (counter in exerciseList.map{it.reps!!.toInt()}){
+                /*for (counter in exerciseList.map{it.reps!!.toInt()}){
                     if(lowestNum > counter){
                         lowestNum=counter
                     }
                 }
-                lowest.text = lowestNum.toString()
+                lowest.text = lowestNum.toString()*/
                 for (counter in exerciseList.map { it.reps!!.toInt() }){
                     if(counter != null){
                         totalNum += counter

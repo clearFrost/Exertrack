@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        supportActionBar!!.setTitle("Exertrack")
 
         val exerciseInput: TextView = findViewById(R.id.exerciseET)
         val repetitionsInput: TextView = findViewById(R.id.repsET)
