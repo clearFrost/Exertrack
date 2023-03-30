@@ -1,40 +1,37 @@
-# Android Project 5 - *Exertrack*
+# Android Project 6 - *Exertrack*
 
 Submitted by: **Jason Kang**
 
-**Exertrack** is a health metrics app that allows users to track their exercise. 
+**Exertrack** is a health metrics app that allows users to track their workouts.
 
-Time spent: **15** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): `Type of workout with repititions`
-- [x] **There is a "create entry" UI that prompts users to make their daily entry**
-- [x] **New entries are saved in a database and then updated in the RecyclerView**
-- [x] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
- 
+- [x] **Use at least 2 Fragments**
+- [x] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [x] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+
 The following **optional** features are implemented:
 
-- [ ] **Create a UI for tracking averages and trends in metrics**
-- [x] **Improve and customize the user interface through styling and coloring**
-- [x] **Implement orientation responsivity**
-- [ ] **Add a daily photo feature**
+- [ ] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
+- [ ] **Implement daily notifications to prompt users to fill in their data**
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-![](https://github.com/clearFrost/Excertrack/blob/master/project5gif.gif)
-![](https://github.com/clearFrost/Excertrack/blob/master/project5gif2.gif)
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with 
+[ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 
-The biggest difficulty I had with this project was working with a database and querying data into it. I originally had SQL experience from my previous SQL class but implementing it into an app was surprisingly difficult.
+This project helped me grasp an understanding of fragments and how fast and lightweight they are. When implementing it I noticed it was worth using fragments as it is not too difficult to impement while being extremely faster than creating a new activity.
 ## License
 
     Copyright [2023] [Jason Kang]
