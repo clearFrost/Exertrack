@@ -4,7 +4,7 @@ Submitted by: **Jason Kang**
 
 **Exertrack** is a health metrics app that allows users to track their workouts.
 
-Time spent: **5** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
