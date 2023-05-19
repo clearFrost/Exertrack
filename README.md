@@ -30,7 +30,7 @@ GIF created with
 
 ## Notes
 
-This project helped me grasp an understanding of fragments and how fast and lightweight they are. When implementing it I noticed it was worth using fragments as it is not too difficult to impement while being extremely faster than creating a new activity.
+This project helped me grasp an understanding of fragments and how fast and lightweight they are. When implementing it I noticed it was worth using fragments as it is not too difficult to implement while being extremely faster than creating a new activity. Certain parts of an app I could see could function better as a fragment.
 ## License
 
     Copyright [2023] [Jason Kang]
